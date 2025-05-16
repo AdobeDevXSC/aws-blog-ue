@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "author-p128352-e1258333.adobeaemcloud.com/bin/franklin.delivery/adobedevxsc/aws-blog-ue/main"
+    url: "https://author-p128352-e1258333.adobeaemcloud.com/bin/franklin.delivery/adobedevxsc/aws-blog-ue/main"
     type: "markup"
     suffix: ".html"
