@@ -21,10 +21,19 @@
         "label": "Author"
       },
       {
-        "component": "text",
-        "valueType": "string",
+        "component": "select",
         "name": "category",
-        "label": "Category"
+        "label": "Category",
+        "options": [
+          {
+            "name": "Public Sector",
+            "value": "public-sector"
+          },
+          {
+            "name": "AWS",
+            "value": "aws"
+          }
+        ]
       },
       {
         "component": "text",
