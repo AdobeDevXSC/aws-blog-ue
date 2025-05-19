@@ -23,6 +23,9 @@ indices:
       description: 
         select: head > meta[name="description"]
         value: attribute(el, 'content');
+      content:
+        select: main > div
+        values: characters(textContent(el), 0, 200)
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
