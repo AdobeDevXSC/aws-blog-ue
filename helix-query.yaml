@@ -3,7 +3,7 @@ version: 1
 indices:
   pages:
     include:
-      - '/**'
+      - '/blogs/**'
     exclude:
       - '/**.json'
     target: /query-index.json
@@ -15,10 +15,10 @@ indices:
         select: head > meta[name="author"]
         value: attribute(el, 'content')
       title: 
-        select: head > meta[name="title"]
+        select: head > meta[name="og:title"]
         value: attribute(el, 'content')
       image: 
-        select: head > meta[name="og:image"]
+        select: head > meta[property="og:image"]
         value: match(attribute(el, 'content'), 'https:\/\/[^/]+(\/.*)')
       description: 
         select: head > meta[name="description"]
@@ -26,6 +26,6 @@ indices:
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
-      robots:
-        select: head > meta[name="robots"]
-        value: attribute(el, "content")
+      date: 
+        select: head > meta[name="publication-date"]
+        value: dateValue(attribute(el, 'content'), 'MM-DD-YYYY')
