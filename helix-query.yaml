@@ -6,7 +6,7 @@ indices:
       - '/blogs/**'
     exclude:
       - '/**.json'
-    target: /query-index.json
+    target: /blogs/query-index.json
     properties:
       category: 
         select: head > meta[name="category"]
@@ -15,7 +15,7 @@ indices:
         select: head > meta[name="author"]
         value: attribute(el, 'content')
       title: 
-        select: head > meta[name="og:title"]
+        select: head > meta[property="og:title"]
         value: attribute(el, 'content')
       image: 
         select: head > meta[property="og:image"]
@@ -27,5 +27,5 @@ indices:
         select: none
         value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
       date: 
-        select: head > meta[name="publication-date"]
+        select: head > meta[name="published-time"]
         value: dateValue(attribute(el, 'content'), 'MM-DD-YYYY')
