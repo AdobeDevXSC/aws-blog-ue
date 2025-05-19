@@ -3,10 +3,10 @@ version: 1
 indices:
   pages:
     include:
-      - '/blogs/**'
+      - '/languages/**/blogs/**'
     exclude:
       - '/**.json'
-    target: /blogs/query-index.json
+    target: /languages/**/blogs/query-index.json
     properties:
       category: 
         select: head > meta[name="category"]
