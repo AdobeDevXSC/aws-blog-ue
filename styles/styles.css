@@ -215,3 +215,34 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/* main metadata */
+.article main .section {
+  padding: 32px;
+}
+
+.article h1 {
+  font-size: 24px;
+}
+
+.article h2 {
+  font-size: 21px;
+}
+
+.article h2 a {
+  font-size: 14px;
+}
+
+.article p {
+  font-size: 14px;
+}
+
+.article ul li {
+  font-size: 14px;
+}
+
+.article code {
+  padding: 0 5px;
+  color: #c0392b;
+  font-size: 14px;
+}

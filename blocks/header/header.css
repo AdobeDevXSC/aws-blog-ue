@@ -456,8 +456,10 @@ header .section.navbar-two {
 	max-width: 2000px;
 	margin: 0 auto;
 	padding: 0 1rem;
-	background-color: #fff;
+	/* background-color: #fff; */
 	color: #000;
+  background-color: #f2f4f4;
+  box-shadow: 0 1px 2px #d5dbdb;
 }
 
 header .section.navbar-two > .default-content-wrapper {
