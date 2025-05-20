@@ -3,7 +3,8 @@
     "/content/aws-blog-ue/:/",
     "/content/aws-blog-ue/configuration:/.helix/config.json",
     "/content/aws-blog-ue/metadata:/metadata.json",
-    "/content/aws-blog-ue/redirects:/redirects.json"
+    "/content/aws-blog-ue/redirects:/redirects.json",
+    "/content/aws-blog-ue/headers:/headers.json"
   ],
   "includes": [
     "/content/aws-blog-ue/"
