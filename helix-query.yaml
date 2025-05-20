@@ -1,11 +1,10 @@
 version: 1
+auto-generated: true
 
 indices:
   en-blog:
     include:
-      - '/languages/en/blogs/**'
-    exclude:
-      - '/**.json'
+      - /languages/en/blogs/**
     target: /languages/en/blogs/query-index.json
     properties:
       category: 
@@ -34,9 +33,7 @@ indices:
         value: dateValue(attribute(el, 'content'), 'MM-DD-YYYY')
   es-blog:
     include:
-      - '/languages/es/blogs/**'
-    exclude:
-      - '/**.json'
+      - /languages/es/blogs/**
     target: /languages/es/blogs/query-index.json
     properties:
       category: 
