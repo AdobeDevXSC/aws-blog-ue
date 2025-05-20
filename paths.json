@@ -5,7 +5,7 @@
     "/content/aws-blog-ue/metadata:/metadata.json",
     "/content/aws-blog-ue/redirects:/redirects.json",
     "/content/aws-blog-ue/headers:/headers.json",
-    "/content/aws-blog-ue/languages/en/blogs/query-index.json:/query-index.json",
+    "/content/aws-blog-ue/languages/en/blogs/query-index:/query-index.json",
   ],
   "includes": [
     "/content/aws-blog-ue/"
