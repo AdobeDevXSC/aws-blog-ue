@@ -1,8 +1,8 @@
 # AWS Blog (Universal Editor)
 
 ## Environments
-- Preview: https://main--aws-blog-ue--adobedevxsc.aem.page/
-- Live: https://main--aws-blog-ue--adobedevxsc.aem.live/
+- Preview: https://main--aws-blog-ue--adobedevxsc.aem.page/languages/en/
+- Live: https://main--aws-blog-ue--adobedevxsc.aem.live/languages/en/
 
 ## Documentation
 
