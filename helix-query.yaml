@@ -6,7 +6,7 @@ indices:
       - '/languages/**/blogs/**'
     exclude:
       - '/**.json'
-    target: languages/**/blogs/query-index.json
+    target: /languages/**/blogs/query-index.json
     properties:
       category: 
         select: head > meta[name="category"]
