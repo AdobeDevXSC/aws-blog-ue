@@ -1,0 +1,88 @@
+.article-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.article-feed .sidebar {
+  width: 220px;
+}
+
+.article-feed .clear-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0;
+  color: #065299;
+  padding: 0;
+  font-weight: 400;
+}
+
+.article-feed .sidebar h5 {
+  font-size: 16px;
+  border-bottom: 1px solid #eaeded;
+  padding-bottom: 1rem;
+}
+
+.article-feed .sidebar h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.article-feed .category-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.article-feed .category-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.article-feed .content {
+  flex: 1;
+}
+
+.article-feed .article {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.article-feed .article h4 {
+  margin: 0 0 0.3rem;
+  font-size: 15px;
+}
+
+.article-feed .article h4 a {
+  text-decoration: none;
+  color: #0073bb;
+}
+
+.article-feed .article h4 a:hover {
+  text-decoration: underline;
+}
+
+.article-feed .article .author-publish-date {
+  color: #5f6b7a;
+  font-size: 14px;
+}
+
+.article-feed .article .description {
+  font-size: 14px;
+  color: #000;
+}
+
+.article-feed .article p {
+  margin: 5px 0;
+}
+
+@media (width >= 900px) {
+  .article-feed {
+    flex-direction: row;
+  }
+}

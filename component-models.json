@@ -234,5 +234,29 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "featured-articles",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Article links",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "article-feed",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Query Index",
+        "valueType": "string"
+      }
+    ]
   }
 ]

@@ -61,7 +61,7 @@
 }
 
 body {
-  font-size: var(--body-font-size-m);
+  font-size: var(--body-font-size-xs);
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
@@ -194,12 +194,12 @@ main img {
 
 /* sections */
 main .section {
-  padding: 48px 16px;
+  padding: 32px 16px;
 }
 
 @media (width >= 600px) {
   main .section {
-    padding: 48px 32px;
+    padding: 32px;
   }
 }
 

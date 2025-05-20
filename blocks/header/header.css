@@ -453,7 +453,7 @@ header .section.navbar-one ul>li:first-of-type {
 }
 
 header .section.navbar-two {
-	max-width: 2000px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 1rem;
 	/* background-color: #fff; */
@@ -463,8 +463,9 @@ header .section.navbar-two {
 }
 
 header .section.navbar-two > .default-content-wrapper {
-	max-width: 100%;
+	max-width: 2000px;
 	padding: 0 1rem;
+  margin: 0 auto;
 }
 
 header .section.navbar-two ul {
