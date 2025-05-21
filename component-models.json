@@ -40,7 +40,7 @@
         ]
       },
       {
-        "component": "text",
+        "component": "select",
         "name": "template",
         "label": "Style Template",
         "options": [
