@@ -18,7 +18,7 @@
         "component": "text",
         "valueType": "string",
         "name": "author",
-        "label": "Author"
+        "label": "Author(s)"
       },
       {
         "component": "select",
@@ -27,19 +27,28 @@
         "options": [
           {
             "name": "Public Sector",
-            "value": "public-sector"
+            "value": "Public Sector"
           },
           {
             "name": "AWS",
-            "value": "aws"
+            "value": "AWS"
+          },
+          {
+            "name": "Web3",
+            "value": "Web3"
           }
         ]
       },
       {
         "component": "text",
-        "valueType": "string",
         "name": "template",
-        "label": "Style Template"
+        "label": "Style Template",
+        "options": [
+          {
+            "name": "article",
+            "value": "article"
+          }
+        ]
       }
     ]
   },
