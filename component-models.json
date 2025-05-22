@@ -190,6 +190,45 @@
     ]
   },
   {
+    "id": "code-highlighter",
+    "fields": [
+      {
+        "component": "select",
+        "name": "language",
+        "label": "Language",
+        "options": [
+          {
+            "name": "Shell",
+            "value": "shell"
+          },
+          {
+            "name": "JavaScript",
+            "value": "javascript"
+          },
+          {
+            "name": "Python",
+            "value": "python"
+          },
+          {
+            "name": "HTML",
+            "value": "html"
+          },
+          {
+            "name": "CSS",
+            "value": "css"
+          }
+        ]
+        },
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {

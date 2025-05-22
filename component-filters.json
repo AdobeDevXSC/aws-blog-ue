@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "featured-articles",
-      "article-feed"
+      "article-feed",
+      "code-highlighter"
     ]
   },
   {
