@@ -1,0 +1,28 @@
+main .code-highlighter {
+  max-width: 1180px;
+  margin: auto;
+  position: relative;
+  /* padding: 1.75rem 0 1.75rem 1rem; */
+  background-color: var(--overlay-background-color);
+  border-radius: .25em;
+  overflow-x: auto;
+}
+
+main .code-highlighter button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+main .code-highlighter pre {
+  overflow-y: auto;
+}
+
+main .code-highlighter.text pre {
+  overflow-y: hidden;
+  white-space: pre-wrap;
+}
+
+main .code-highlighter code {
+  font-size: var(--body-font-size-xs);
+}
